@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>Signup Form Pract</title>
+        <style>
+            
+
+        </style>
+        <link rel="stylesheet" href="style.css">
+           
+    </head>
+    <body>
+        <ul class="nav"> 
+            <li>Home</li>
+            <li>Services</li>
+            <li>Profile</li>
+            <li>Contact</li>
+        </ul>
+      <header>
+           <span style="font-size:50px; color:blue;">Daring To Be Different</span> 
+                   <hr style="background-color: olive;">
+      </header>
+      <section>
+          <div style="width:70%; padding:20px;background-color:rgb(96, 96, 226)">
+              <h1 style="text-align:center; font-size:30;">SIGNUP FORM</h1>
+              <span>Please fill in with your details</span>
+              <form method="POST" action="#">
+                  <table width="100%" cellpadding="10">
+                      <tr>
+                          <td><label>Full Name</label></td>
+                          <td><input type="text" name="fname" placeholder="Please your full name here"/></td>
+
+                      </tr>
+                      <tr>
+                          <td><label>Phone Number</label></td>
+                          <td><input type="tel" name="Phone" placeholder="Phone Number"></td>
+                      </tr>
+                      <tr>
+                          <td><label>Email</label></td>
+                          <td><input type="mail" name="email"></td>
+                      </tr>
+                      <tr>
+                          <td><label>Gender</label></td>
+                          <td><input type="radio" name= "gender" value="Male">Male</td>
+                          <td><input type="radio" name= "gender" value="Female">Female</td>
+
+                      </tr>
+                      <tr>
+                          <td><label>Marital Status</label></td>
+                          <td><input type="radio" name="status" value="Single">Single</td>
+                          <td><input type="radio" name="status" value="Married">Married</td>
+                          <td><input type="radio" name="status" value="Divorced">Divorced</td>
+                          <td><input type="radio" name="status" value="Widowed">Widowed</td>
+                      </tr>
+                      <tr>
+                          <td><label>Date of Birth</label>></td>
+                          <td><input type="date" name="dob" placeholder="Date of Birth"></td>
+                      </tr>
+                      <tr>
+                          <td><label>Home Address</label></td>
+                          <td><textarea name="address"></textarea></td>
+                      </tr>
+                      <tr>
+                          <td><label>State of Origin</label></td>
+                          <td>
+                              <select name="State">
+                                  <option value="">..Select option..</option>
+                                  <option value="Bauchi">Bauchi</option>
+                                  <option value="Osun">Osun</option>
+                                  <option value="Taraba">Taraba</option>
+                                  <option value="Plateau">Plateau</option>
+
+                              </select>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td><label>Local Government Area</label></td>
+                          <td><input type="text" name="lga" placeholder="Local Government Area"></td>
+                      </tr>
+                      <tr><td><input type="submit" name="signup" value="Signup"></td></tr>
+                      <tr>
+                          <td><label>Agency</label></td>
+                          <td><input type="button" name="agent"></td>
+                      </tr>
+                    </table>
+              </form>
+          </div>
+      </section>
+      <footer style="padding-top:30px">
+          <p style="text-align:center">&copy 2020.</p>
+      </footer>
+    </body>
+</html>
